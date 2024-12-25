@@ -9,11 +9,11 @@ const Counter = () => {
     <div style={{textAlign:"center", marginTop:"50px"}}>
         <h1>{count}</h1>
 
-        <button onClick={() => dispatch(increment())}>Increment</button>
+        <button onClick={() => dispatch(increment())}>increment</button>
 
 
         <button onClick={()=>dispatch(decrement())}
-        style={{padding: "10px 20px"}}>Decrement</button>
+        style={{padding: "10px 20px"}}>decrement</button>
 
     </div>
   )
