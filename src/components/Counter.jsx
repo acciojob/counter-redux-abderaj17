@@ -7,7 +7,7 @@ const Counter = () => {
     const dispatch = useDispatch();
   return (
     <div style={{textAlign:"center", marginTop:"50px"}}>
-        <h1>Counter: {count}</h1>
+        <h1>{count}</h1>
 
         <button
         onClick={()=>dispatch(increment())} style={{marginRight:"10px", padding:"10px 20px"}}>
